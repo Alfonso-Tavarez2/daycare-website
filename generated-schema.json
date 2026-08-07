@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ChildCare",
+  "@id": "https://kirsisdaycare.com/#business",
+  "name": "Kirsis' Daycare",
+  "url": "https://kirsisdaycare.com/",
+  "telephone": "+1-216-301-3067",
+  "image": [
+    "https://kirsisdaycare.com/IMG_0889.jpg",
+    "https://kirsisdaycare.com/IMG_0885.jpg"
+  ],
+  "description": "A family-centered, bilingual daycare in Cleveland, Ohio offering play-based early childhood education, founded by Kirsis Tavarez.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8121 Detroit Ave",
+    "addressLocality": "Cleveland",
+    "addressRegion": "OH",
+    "postalCode": "44102",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Cleveland"
+  },
+  "sameAs": [
+    "https://starting-point.org/provider/kirsis-daycare/",
+    "https://www.yelp.com/biz/kirsis-daycare-cleveland"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Quality Rating",
+    "name": "Step Up To Quality - Gold",
+    "recognizedBy": {
+      "@type": "GovernmentOrganization",
+      "name": "Ohio Department of Children and Youth",
+      "url": "https://childrenandyouth.ohio.gov/for-providers/step-up-to-quality"
+    }
+  },
+  "founder": {
+    "@id": "https://kirsisdaycare.com/#kirsis-tavarez"
+  },
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://kirsisdaycare.com/#kirsis-tavarez",
+      "name": "Kirsis Tavarez",
+      "jobTitle": "Owner & Director",
+      "image": "https://kirsisdaycare.com/Screenshot_18-2-2026_165134_.jpeg",
+      "description": "With over 25 years in early childhood education, Kirsis' warmth and vision shape everything we do.",
+      "award": "Starting Points 2024 Early Childhood Educator of the Year",
+      "worksFor": { "@id": "https://kirsisdaycare.com/#business" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://kirsisdaycare.com/#alejandra-soria",
+      "name": "Alejandra Soria",
+      "jobTitle": "Lead Teacher",
+      "image": "https://kirsisdaycare.com/Screenshot_18-2-2026_165211_.jpeg",
+      "description": "Specializes in play-based learning, planning activities and outdoor exploration.",
+      "worksFor": { "@id": "https://kirsisdaycare.com/#business" }
+    }
+  ]
+}
